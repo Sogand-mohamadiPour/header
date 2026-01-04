@@ -1,0 +1,180 @@
+.header {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.topBar {
+  border-bottom: 1px solid #3b82f6;
+  padding: 0.5rem 1rem;
+}
+
+.topBarContent {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+}
+
+.topBarLeft {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.socialContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socialLink {
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.socialLink:hover {
+  color: #bfdbfe;
+}
+
+.dropdowns {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.select {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.mainHeader {
+  padding: 1rem;
+}
+
+.mainHeaderContent {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logoIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.logoLabel {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.searchContainer {
+  flex: 1;
+  max-width: 42rem;
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  padding-right: 3rem;
+  border-radius: 0.5rem;
+  color: #1f2937;
+  border: none;
+  outline: none;
+}
+
+.searchInput:focus {
+  outline: 2px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+.searchButton {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #1d4ed8;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.searchButton:hover {
+  background-color: #1e40af;
+}
+
+.searchIcon {
+  color: #ffffff;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconButton {
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.iconButton:hover {
+  background-color: #1d4ed8;
+}
+
+.badge {
+  position: absolute;
+  top: -0.25rem;
+  right: -0.25rem;
+  background-color: #ef4444;
+  color: #ffffff;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
