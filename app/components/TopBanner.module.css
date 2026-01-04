@@ -1,69 +1,73 @@
 .banner {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 0.5rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .content {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex: 1;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    justify-content: space-around;
 }
 
 .blackFriday {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .blackLabel {
-  background-color: #facc15;
-  color: #000000;
-  padding: 0.25rem 0.5rem;
-  font-weight: 700;
+    background-color: #facc15;
+    color: #000000;
+    padding: 0.25rem 0.5rem;
+    font-weight: 700;
+    display: inline-block;
+    transform: rotate(-10deg);
 }
 
 .discount {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .discountPercent {
-  color: #facc15;
-  font-size: 1.5rem;
-  font-weight: 700;
+    color: #facc15;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .shopButton {
-  background-color: #facc15;
-  color: #000000;
-  padding: 0.25rem 1rem;
-  font-weight: 600;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s;
+    height: 40px;
+    background-color: #facc15;
+    color: #000000;
+    padding: 0.25rem 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .shopButton:hover {
-  background-color: #fde047;
+    background-color: #fde047;
 }
 
 .closeButton {
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  transition: background-color 0.2s;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    border: none;
+    background: transparent;
+    background-color: #1f2937;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    color: #ffffff;
 }
 
 .closeButton:hover {
-  background-color: #1f2937;
+    background-color: #1f2937;
 }
-
