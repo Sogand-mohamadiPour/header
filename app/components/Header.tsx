@@ -4,47 +4,47 @@ import styles from './Header.module.css';
 export default function Header() {
   return (
     <div className={styles.header}>
-      {/* Top info bar */}
+
       <div className={styles.topBar}>
         <div className={styles.topBarContent}>
-          <div className={styles.topBarLeft}>
-            <span>Welcome to Clicon online eCommerce store.</span>
+          <span className={styles.welcomeText}>Welcome to Clicon online eCommerce store.</span>
+          <div className={styles.topBarRight}>
             <div className={styles.socialContainer}>
               <span>Follow us:</span>
               <div className={styles.socialLinks}>
-                <a href="#" className={styles.socialLink}>
+                <span className={styles.socialLink}>
                   <Twitter size={16} />
-                </a>
-                <a href="#" className={styles.socialLink}>
+                </span>
+                <span className={styles.socialLink}>
                   <Facebook size={16} />
-                </a>
-                <a href="#" className={styles.socialLink}>
+                </span>
+                <span className={styles.socialLink}>
                   <Share2 size={16} />
-                </a>
-                <a href="#" className={styles.socialLink}>
+                </span>
+                <span className={styles.socialLink}>
                   <Youtube size={16} />
-                </a>
-                <a href="#" className={styles.socialLink}>
+                </span>
+                <span className={styles.socialLink}>
                   <Instagram size={16} />
-                </a>
+                </span>
               </div>
             </div>
-          </div>
-          <div className={styles.dropdowns}>
-            <select className={styles.select}>
-              <option>Eng</option>
-            </select>
-            <select className={styles.select}>
-              <option>USD</option>
-            </select>
+            <div className={styles.dropdowns}>
+              <select className={styles.select}>
+                <option>Eng</option>
+              </select>
+              <select className={styles.select}>
+                <option>USD</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Main header */}
+
       <div className={styles.mainHeader}>
         <div className={styles.mainHeaderContent}>
-          {/* Logo */}
+       
           <div className={styles.logo}>
             <div className={styles.logoIcon}>
               <span className={styles.logoText}>O</span>
@@ -52,7 +52,7 @@ export default function Header() {
             <span className={styles.logoLabel}>CLICON</span>
           </div>
 
-          {/* Search bar */}
+       
           <div className={styles.searchContainer}>
             <div className={styles.searchWrapper}>
               <input
@@ -66,7 +66,7 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Right icons */}
+        
           <div className={styles.iconsContainer}>
             <button className={styles.iconButton}>
               <ShoppingCart size={24} />

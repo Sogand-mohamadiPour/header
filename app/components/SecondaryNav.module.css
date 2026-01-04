@@ -22,7 +22,6 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #2563eb;
   color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -30,10 +29,7 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s;
-}
-
-.categoryButton:hover {
-  background-color: #1d4ed8;
+  color: black;
 }
 
 .navigation {
@@ -46,7 +42,10 @@
   color: #374151;
   transition: color 0.2s;
   font-weight: 500;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: default;
 }
 
 .navLink:hover {
@@ -64,3 +63,20 @@
   font-weight: 500;
 }
 
+/* ///////////////////////////////////////////////// */
+.container {
+  max-width: 80rem;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #f3f4f6;
+}
+
+.promoImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
